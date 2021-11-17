@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #F5F5F5;
+
+  --blue-500: #4e6e98;
+  --blue-600: #364F6B;
+  --blue-700: #2a3c56;
+  --blue-800: #162236;
+  --blue-900: #010918;
+
+  --teal-300: #71cfd9;
+  --teal-400: #3FC1C9;
+  --teal-500: #32a3b3;
+
+  --pink-700: #FC5185;
+
+  --yellow-700: #F9ED69;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+button {
+  cursor: pointer;
+}
