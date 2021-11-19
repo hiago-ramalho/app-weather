@@ -1,9 +1,14 @@
-export default function Card() {
+import styles from './card.module.scss';
+// import { WiDayCloudy } from "react-icons/wi";
+
+
+
+export default function Card({children}) {
   return (
     <>
-      <div>
-        Card
-      </div>
+        <div className={styles.card}>
+          {children}
+        </div>
     </>
   )
 }

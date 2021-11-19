@@ -1,4 +1,5 @@
-import WeatherIcon from '../../assets/images/weather-icon2.svg';
+import WeatherIcon from '../../assets/images/cloud.png';
+// import { WiDayCloudy } from "react-icons/wi";
 
 import styles from './header.module.scss';
 
@@ -11,6 +12,7 @@ export default function Header() {
         </h1>
 
         <img src={WeatherIcon} alt="Weather Icon" />
+        {/* <WiDayCloudy className={styles.iconWeather} /> */}
       </div>
     </header>
   )

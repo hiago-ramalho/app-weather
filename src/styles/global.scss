@@ -29,7 +29,20 @@ html {
 
 body {
   background: var(--bg-color);
+
 }
+
+::-webkit-scrollbar {
+  width: .6rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5rem;
+  background: var(--teal-500);
+}
+
 
 button {
   cursor: pointer;
