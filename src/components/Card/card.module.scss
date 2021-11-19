@@ -14,6 +14,7 @@
 
   background: #d9d9d977;
   color: var(--blue-700);
+  font-family: var(--rubik);
   
   cursor: pointer;
   
@@ -22,7 +23,8 @@
   }
   
   h2 {
-    font-size: 2.2rem;
+    font-family: var(--prompt);
+    font-size: 2.4rem;
   }
 
   img {

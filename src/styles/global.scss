@@ -21,6 +21,9 @@
   --pink-700: #FC5185;
 
   --yellow-700: #F9ED69;
+
+  --prompt: 'Prompt', sans-serif;
+  --rubik: 'Rubik', sans-serif;
 }
 
 html {
@@ -30,6 +33,7 @@ html {
 body {
   background: var(--bg-color);
 
+  font-family: var(--prompt);
 }
 
 ::-webkit-scrollbar {
